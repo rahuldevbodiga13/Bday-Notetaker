@@ -13,6 +13,10 @@
 		184BCC8C287F1CE500462178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184BCC8A287F1CE500462178 /* Main.storyboard */; };
 		184BCC8E287F1CE500462178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184BCC8D287F1CE500462178 /* Assets.xcassets */; };
 		184BCC91287F1CE500462178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184BCC8F287F1CE500462178 /* LaunchScreen.storyboard */; };
+		18B58A812887A95200E66AC8 /* avengers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B58A7F2887A95200E66AC8 /* avengers.jpg */; };
+		18B58A822887A95200E66AC8 /* marvels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B58A802887A95200E66AC8 /* marvels.jpg */; };
+		18E293EC2881517E00150B7A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E293EB2881517E00150B7A /* SecondViewController.swift */; };
+		18E293EE2881848800150B7A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E293ED2881848800150B7A /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		184BCC8D287F1CE500462178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184BCC90287F1CE500462178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184BCC92287F1CE500462178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B58A7F2887A95200E66AC8 /* avengers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers.jpg; sourceTree = "<group>"; };
+		18B58A802887A95200E66AC8 /* marvels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marvels.jpg; sourceTree = "<group>"; };
+		18E293EB2881517E00150B7A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18E293ED2881848800150B7A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		184BCC83287F1CE500462178 /* Bday Note Taker */ = {
 			isa = PBXGroup;
 			children = (
+				18B58A7F2887A95200E66AC8 /* avengers.jpg */,
+				18B58A802887A95200E66AC8 /* marvels.jpg */,
 				184BCC84287F1CE500462178 /* AppDelegate.swift */,
 				184BCC86287F1CE500462178 /* SceneDelegate.swift */,
 				184BCC88287F1CE500462178 /* ViewController.swift */,
+				18E293EB2881517E00150B7A /* SecondViewController.swift */,
+				18E293ED2881848800150B7A /* SignupViewController.swift */,
 				184BCC8A287F1CE500462178 /* Main.storyboard */,
 				184BCC8D287F1CE500462178 /* Assets.xcassets */,
 				184BCC8F287F1CE500462178 /* LaunchScreen.storyboard */,
@@ -127,6 +139,8 @@
 			files = (
 				184BCC91287F1CE500462178 /* LaunchScreen.storyboard in Resources */,
 				184BCC8E287F1CE500462178 /* Assets.xcassets in Resources */,
+				18B58A822887A95200E66AC8 /* marvels.jpg in Resources */,
+				18B58A812887A95200E66AC8 /* avengers.jpg in Resources */,
 				184BCC8C287F1CE500462178 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E293EC2881517E00150B7A /* SecondViewController.swift in Sources */,
 				184BCC89287F1CE500462178 /* ViewController.swift in Sources */,
+				18E293EE2881848800150B7A /* SignupViewController.swift in Sources */,
 				184BCC85287F1CE500462178 /* AppDelegate.swift in Sources */,
 				184BCC87287F1CE500462178 /* SceneDelegate.swift in Sources */,
 			);
